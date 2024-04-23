@@ -1,0 +1,26 @@
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .photo {
+    flex: 0 0 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+.photo img {
+    max-width: 150px; 
+    max-height: 150px; 
+    object-fit: cover; 
+  }
+  
+  
+  .photo h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
